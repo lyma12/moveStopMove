@@ -64,7 +64,90 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.50f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\_GAME\Scripts\Extends\ObjectPoolManager.cs" />
+    <Compile Include="Assets\Player Prefs Editor\SimpleEncryption.cs" />
+    <Compile Include="Assets\Pixel Play\Scripts\ExtendedFlycam.cs" />
+    <Compile Include="Assets\Pixel Play\Scripts\OffScreenIndicator\Indicator.cs" />
+    <Compile Include="Assets\_GAME\Scripts\Manager\DataManager.cs" />
+    <Compile Include="Assets\_Pool\Pool\ParticlePool.cs" />
+    <Compile Include="Assets\_GAME\Scripts\Data\Data SO\PantData.cs" />
+    <Compile Include="Assets\_GAME\Scripts\UI\PlayCanva.cs" />
+    <Compile Include="Assets\_GAME\Scripts\Data\Data SO\SkinData.cs" />
+    <Compile Include="Assets\_GAME\Scripts\Extends\UICanvas.cs" />
+    <Compile Include="Assets\_GAME\Scripts\Data\Data SO\Item\PantItemData.cs" />
+    <Compile Include="Assets\_GAME\Scripts\StateMachine\DieState.cs" />
+    <Compile Include="Assets\Pixel Play\Scripts\OffScreenIndicator\ArrowObjectPool.cs" />
+    <Compile Include="Assets\_GAME\Scripts\Manager\LevelManager.cs" />
+    <Compile Include="Assets\_GAME\Scripts\Weapon\Weapon.cs" />
+    <Compile Include="Assets\_Pool\Pool\GameUnit.cs" />
+    <Compile Include="Assets\_GAME\Scripts\Weapon\WeaponType.cs" />
+    <Compile Include="Assets\_GAME\Scripts\Manager\Level.cs" />
+    <Compile Include="Assets\_GAME\Scripts\Extends\Cache.cs" />
+    <Compile Include="Assets\_GAME\Scripts\Extends\IObserver.cs" />
+    <Compile Include="Assets\_GAME\Scripts\UI\Component\ItemView.cs" />
+    <Compile Include="Assets\_GAME\Scripts\Extends\UIManager.cs" />
+    <Compile Include="Assets\_GAME\Scripts\Extends\Singleton.cs" />
+    <Compile Include="Assets\_GAME\Scripts\UI\ShopCanvas.cs" />
+    <Compile Include="Assets\_GAME\Scripts\StateMachine\AttackState.cs" />
+    <Compile Include="Assets\Pixel Play\Scripts\OffScreenIndicator\OffScreenIndicatorCore.cs" />
+    <Compile Include="Assets\_GAME\Scripts\Manager\CameraFollower.cs" />
+    <Compile Include="Assets\_GAME\Scripts\Data\Data SO\WeaponData.cs" />
+    <Compile Include="Assets\_GAME\Scripts\Character\Character.cs" />
+    <Compile Include="Assets\_GAME\Scripts\Data\Data SO\InterfaceItemData.cs" />
+    <Compile Include="Assets\_GAME\Scripts\UI\MainMenu.cs" />
+    <Compile Include="Assets\_GAME\Scripts\StateMachine\FindState.cs" />
+    <Compile Include="Assets\Pixel Play\Scripts\OffScreenIndicator\Target.cs" />
+    <Compile Include="Assets\_GAME\Scripts\Data\Data SO\Item\WeaponItemData.cs" />
+    <Compile Include="Assets\_GAME\Scripts\Character\Bot.cs" />
+    <Compile Include="Assets\_GAME\Scripts\Data\Data SO\Item\SkinItemData.cs" />
+    <Compile Include="Assets\_Pool\Pool\PoolControler.cs" />
+    <Compile Include="Assets\Pixel Play\Scripts\OffScreenIndicator\OffScreenIndicator.cs" />
+    <Compile Include="Assets\_GAME\Scripts\UI\ProfileCanva.cs" />
+    <Compile Include="Assets\_GAME\Scripts\Weapon\SkinType.cs" />
+    <Compile Include="Assets\_Pool\Pool\SimplePool.cs" />
+    <Compile Include="Assets\Pixel Play\Scripts\OffScreenIndicator\BoxObjectPool.cs" />
+    <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
+    <Compile Include="Assets\_GAME\Scripts\Manager\SoundManager.cs" />
+    <Compile Include="Assets\_GAME\Scripts\Character\CircleTarget.cs" />
+    <Compile Include="Assets\_GAME\Scripts\Weapon\PantType.cs" />
+    <Compile Include="Assets\Joystick Pack\Scripts\Base\Joystick.cs" />
+    <Compile Include="Assets\_GAME\Scripts\Weapon\Bullet\Bullet.cs" />
+    <Compile Include="Assets\_GAME\Scripts\StateMachine\IdleState.cs" />
+    <Compile Include="Assets\_GAME\Scripts\StateMachine\IState.cs" />
+    <Compile Include="Assets\_GAME\Scripts\Extends\ISubject.cs" />
+    <Compile Include="Assets\_GAME\Scripts\Manager\Contanst.cs" />
+    <Compile Include="Assets\_Pool\Pool\MiniPool.cs" />
+    <Compile Include="Assets\_GAME\Scripts\Character\Player.cs" />
+    <Compile Include="Assets\_GAME\Scripts\Skin\Hat.cs" />
+    <Compile Include="Assets\Player Prefs Editor\PlayerPrefsUtility.cs" />
+    <Compile Include="Assets\_GAME\Scripts\UI\EndGameCanva.cs" />
+    <Compile Include="Assets\_GAME\Scripts\UI\SettingCanva.cs" />
+    <Compile Include="Assets\_GAME\Scripts\Common\AnimName.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\WanzyeeStudio\ThirdParty\SaladLab\Json.Net.Unity3D\LICENSE.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\WanzyeeStudio\ThirdParty\SaladLab\Json.Net.Unity3D\Plugins\Newtonsoft.Json.dll" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\WanzyeeStudio\ThirdParty\SaladLab\Json.Net.Unity3D\link.xml" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -397,6 +480,10 @@
     </Reference>
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.50f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>Assets\WanzyeeStudio\ThirdParty\SaladLab\Json.Net.Unity3D\Plugins\Newtonsoft.Json.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
@@ -907,10 +994,6 @@
       <HintPath>Library\ScriptAssemblies\Unity.Notifications.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
       <Private>False</Private>
@@ -947,10 +1030,6 @@
       <HintPath>Library\ScriptAssemblies\Unity.AdaptivePerformance.Profiler.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.VisualScripting.Core.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
       <Private>False</Private>
@@ -961,6 +1040,10 @@
     </Reference>
     <Reference Include="Unity.AdaptivePerformance.Simulator.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.AdaptivePerformance.Simulator.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.AdaptivePerformance.UI.Editor">
@@ -981,6 +1064,10 @@
     </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.PlasticSCM.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Subsystem.Registration">
@@ -1011,12 +1098,12 @@
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.VSCode.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.Notifications.Android">
       <HintPath>Library\ScriptAssemblies\Unity.Notifications.Android.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Profiling.Core">
@@ -1029,6 +1116,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="WanzyeeStudio.Runtime.csproj" />
   </ItemGroup>
   <Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
   <ItemGroup>

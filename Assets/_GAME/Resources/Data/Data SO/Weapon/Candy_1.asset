@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 252d8a43ebd034b4bad7b4f1bb1d4b1f, type: 3}
+  m_Name: Candy_1
+  m_EditorClassIdentifier: 
+  price: 30
+  nameItem: Candy 1
+  image: {fileID: 2800000, guid: 724e4328a30d97c4fa51f406c3ff007d, type: 3}
+  weapon: {fileID: 6359434296013336673, guid: c700ed367a1c9d04d88883b74bbff791, type: 3}
+  wpType: 5
